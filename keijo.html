@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>anime</title>
+</head>
+<header>anime idk
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="index.html">Accueil</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1>Keijo!!!!</h1>
+    <div id="roulette">
+        <label for="videoselector">Episode</label>
+        <select id="videoselector" onchange="changervideo()">
+            <option value="4988687" data-titre="1">1</option>
+            <option value="4988192" data-titre="2">2</option>
+            <option value="4988211" data-titre="3">3</option>
+            <option value="4988227" data-titre="4">4</option>
+            <option value="4988300" data-titre="5">5</option>
+            <option value="4988327" data-titre="6">6</option>
+            <option value="4988349" data-titre="7">7</option>
+            <option value="4988367" data-titre="8">8</option>
+            <option value="4988388" data-titre="9">9</option>
+            <option value="4988399" data-titre="10">10</option>
+            <option value="4988600" data-titre="11">11</option>
+            <option value="4988611" data-titre="12">12</option>
+            <!-- Ajoutez d'autres options avec les IDs vidéo -->
+        </select>
+    </div>
+    <div id="video-container">
+        <iframe id="video" 
+                src="https://video.sibnet.ru/shell.php?videoid=4988687" 
+                frameborder="0" 
+                allowfullscreen 
+                width="640" 
+                height="360">
+        </iframe>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+

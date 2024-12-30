@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>anime</title>
+</head>
+<header>anime idk
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="index.html">Accueil</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1>Oshi no ko</h1>
+    <div id="roulette">
+        <label for="videoselector">Episode</label>
+        <select id="videoselector" onchange="changervideo()">
+            <option value="5103128" data-titre="1">1</option>
+            <option value="5110444" data-titre="2">2</option>
+            <option value="5118010" data-titre="3">3</option>
+            <option value="5125479" data-titre="4">4</option>
+            <option value="5133266" data-titre="5">5</option>
+            <option value="5143451" data-titre="6">6</option>
+            <option value="5151133" data-titre="7">7</option>
+            <option value="5164627" data-titre="8">8</option>
+            <option value="5171846" data-titre="9">9</option>
+            <option value="5178171" data-titre="10">10</option>
+            <option value="5182954" data-titre="11">11</option>
+            <option value="5158299" data-titre="special">12</option>
+            <!-- Ajoutez d'autres options avec les IDs vidéo -->
+        </select>
+    </div>
+    <div id="video-container">
+        <iframe id="video" 
+                src="https://video.sibnet.ru/shell.php?videoid=5103128" 
+                frameborder="0" 
+                allowfullscreen 
+                width="640" 
+                height="360">
+        </iframe>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
