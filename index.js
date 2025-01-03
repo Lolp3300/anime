@@ -1,10 +1,11 @@
-function keijo() {
-    window.location.href = "keijo.html";
-}
+const images = document.querySelectorAll("img[data-page]");
 
-function oshino() {
-    window.location.href = "oshi-no-ko.html";
-}
+images.forEach(image => {
+    image.addEventListener("click", function() {
+        const pageUrl = this.getAttribute("data-page");
+        window.location.href = pageUrl;
+    });
+});
 
 function changervideo() {
     const selector = document.getElementById("videoselector");

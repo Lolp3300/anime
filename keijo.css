@@ -1,7 +1,6 @@
-
 body {
     text-decoration: none;
-    background-color: rgb(34, 34, 34);
+    background-image: linear-gradient(to bottom right, rgb(31, 33, 34), rgb(0, 86, 184));;
     color: white;
     margin: 0;
 }
