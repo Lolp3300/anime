@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>anime</title>
+</head>
+<header>anime idk
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <img src="./cover/keijo.jpg" class="cover1">
+    <h1 class="title">Rascal Does Not Dream of Bunny Girl Senpai</h1>
+    <div class="desc">
+    <h3>description</h3>
+        <h4>
+            comming soon
+        </h4>
+    </div>
+    <div id="roulette">
+        <label for="videoselector">Episode</label>
+        <select id="videoselector" onchange="changervideo()">
+            <option value="4645681" data-titre="1">1</option>
+            <option value="4645683" data-titre="2">2</option>
+            <option value="4645685" data-titre="3">3</option>
+            <option value="4645687" data-titre="4">4</option>
+            <option value="4645689" data-titre="5">5</option>
+            <option value="4645690" data-titre="6">6</option>
+            <option value="4645691" data-titre="7">7</option>
+            <option value="4645694" data-titre="8">8</option>
+            <option value="4645695" data-titre="9">9</option>
+            <option value="4645696" data-titre="10">10</option>
+            <option value="4645697" data-titre="11">11</option>
+            <option value="4645700" data-titre="12">12</option>
+            <option value="4645701" data-titre="13">13</option>
+            <!-- Ajoutez d'autres options avec les IDs vidéo -->
+        </select>
+    </div>
+    <div id="video-container">
+        <iframe id="video" 
+                src="https://video.sibnet.ru/shell.php?videoid=4988687" 
+                frameborder="0" 
+                allowfullscreen 
+                width="640" 
+                height="360">
+        </iframe>
+    </div>
+    <h5 class="text">Ce site n'héberge aucun fichier vidéo, que ce soit pour du streaming ou du téléchargement.</h5>
+    <h5 class="text">© 2024 Anime idk - Aucun droit réservés.</h5>
+    <script src="index.js"></script>
+</body>
+</html>
+
